@@ -1,19 +1,36 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Implemente um jogo da Forca em Python para praticar strings, listas, estruturas de repetição, condicionais e entrada de dados. O jogador deve descobrir uma palavra oculta antes de atingir o limite de erros.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Implementar a Partida
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Complete o código inicial para escolher uma palavra e executar uma partida, atualizando o progresso a cada palpite.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra da lista predefinida.
+- Mostrar as letras ainda não descobertas como espaços reservados, por exemplo, `_ _ _ _`.
+- Solicitar palpites de letras e revelar todas as ocorrências de cada letra correta.
+- Contabilizar os palpites incorretos e limitar o número de erros.
+- Encerrar a partida quando a palavra for descoberta ou o limite de erros for atingido.
+- Informar se o jogador venceu ou perdeu e, em caso de derrota, revelar a palavra.
+
+### 🛠️ Validar os Palpites
+
+#### Descrição
+Trate entradas inválidas e repetidas para que elas não alterem indevidamente o estado da partida.
+
+#### Requisitos
+O programa concluído deve:
+
+- Aceitar somente um caractere alfabético por palpite e comparar letras sem diferenciar maiúsculas de minúsculas.
+- Avisar quando a entrada não for uma letra válida, sem consumir uma tentativa.
+- Avisar quando uma letra já tiver sido usada, sem contabilizá-la novamente.
+- Exibir as letras já tentadas e os erros restantes após cada palpite válido.
