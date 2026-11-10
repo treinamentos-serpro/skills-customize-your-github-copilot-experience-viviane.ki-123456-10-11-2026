@@ -72,6 +72,13 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testing-python-with-pytest",
+      "title": "Testing Python with pytest",
+      "description": "Practice automated testing of Python functions and a FastAPI application using pytest.",
+      "path": "assignments/testing-python-with-pytest",
+      "dueDate": "2026-11-17"
     }
   ]
 }
